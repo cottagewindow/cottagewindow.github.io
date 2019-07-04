@@ -980,7 +980,6 @@ h1, h2, h3, h4, h5,
     .block-testimony-1 p {
         margin: 0px; }
 
-
 .block-gallery-1 {
   padding: 20px; 
   background: rgba(255, 255, 255, 0.0); } 
@@ -1006,13 +1005,9 @@ h1, h2, h3, h4, h5,
   .block-13 .owl-dots .owl-dot.active span {
       background: #A96A5A; }
 
-/*  .block-13 .owl-centered .owl-item {
-      display: table-cell;
-      float: none;
-      vertical-align: middle;
-  }*/
 .owl-stage {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
