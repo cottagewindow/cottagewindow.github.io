@@ -982,27 +982,31 @@ h1, h2, h3, h4, h5,
 .block-13 .owl-nav {
   display: none; }
 
-.block-13 .owl-dots {
-  text-align: center;
-  position: relative;
-  bottom: -30px; }
+  .block-13 .owl-dots {
+      text-align: center;
+      position: relative;
+      bottom: -30px; }
   .block-13 .owl-dots .owl-dot {
-    display: inline-block;
-    margin: 4px; }
-    .block-13 .owl-dots .owl-dot span {
+      display: inline-block;
+      margin: 4px; }
+  .block-13 .owl-dots .owl-dot span {
       display: inline-block;
       width: 7px;
       height: 7px;
       border-radius: 50%;
       background: #cccccc; }
-    .block-13 .owl-dots .owl-dot.active span {
+  .block-13 .owl-dots .owl-dot.active span {
       background: #A96A5A; }
 
-      .block-13 .owl-centered .owl-item {
-          display: table-cell;
-          float: none;
-          vertical-align: middle;
-      }
+/*  .block-13 .owl-centered .owl-item {
+      display: table-cell;
+      float: none;
+      vertical-align: middle;
+  }*/
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
 
 .post-entry {
   background: #fff;
